@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JavaScript/script.js"></script>
+</head>
+<body>
+    <h1 id="quiz-title">Application Life Cycle Quiz</h1>
+    <div class="question-box">
+        <h2 class="question">Which three are part of the HTML5 Family?</h2>
+        <h4 class="question-number">1</h4>
+        <form action="" name="question1">
+            <label for="q1o1" class="options">Python</label>
+            <input type="checkbox" name="q1o1" class="options input">
+            <br>
+            <label for="q1o2" class="options">HTML5</label><!--Correct-->
+            <input type="checkbox" name="q1o2" class="options input">
+            <br>
+            <label for="q1o3" class="options">JavaScript</label><!--Correct-->
+            <input type="checkbox" name="q1o3" class="options input">
+            <br>
+            <label for="q1o4" class="options">C++</label>
+            <input type="checkbox" name="q1o4" class="options input">
+            <br>
+            <label for="q1o5" class="options">CSS3</label><!--Correct-->
+            <input type="checkbox" name="q1o5" class="options input">
+            <br>
+            <label for="q1o6" class="options">Java</label>
+            <input type="checkbox" name="q1o6" class="options input">
+        </form>
+    </div>
+    <div class="question-box">
+        <h2 class="question">Which of these two are JavaScript touch events?</h2>
+        <h4 class="question-number">2</h4>
+        <form action="" name="question2">
+            <label for="q2o1" class="options">touchZoom</label> <!--Correct-->
+            <input type="checkbox" name="q2o1" class="options input">
+            <br>
+            <label for="q2o2" class="options">touchEnd</label>
+            <input type="checkbox" name="q2o2" class="options input">
+            <br>
+            <label for="q2o3" class="options">touchPan</label>
+            <input type="checkbox" name="q2o3" class="options input">
+            <br>
+            <label for="q2o4" class="options">touchStart</label> <!--Correct-->
+            <input type="checkbox" name="q2o4" class="options input">
+        </form>
+    </div>
+    <div class="question-box">
+        <h2 class="question">Which is a tool used to package applications?</h2>
+        <h4 class="question-number">3</h4>
+        <form action="" name="question3">
+            <label for="q3" class="options">JavaScript</label>
+            <input type="radio" name="q3" class="options input" value="JavaScript">
+            <br>
+            <label for="q3" class="options">WWAHost.exe</label>
+            <input type="radio" name="q3" class="options input" value="WWAHost.exe">
+            <br>
+            <label for="q3" class="options">App development environments</label> <!--Correct-->
+            <input type="radio" name="q3" class="options input" value="environments">
+            <br>
+            <label for="q3" class="options">Is a native feature of HTML5</label>
+            <input type="radio" name="q3" class="options input" value="native">
+        </form>
+    </div>
+    <div class="question-box">
+        <h2 class="question">Which three are gestures defined by Microsoft?</h2>
+        <h4 class="question-number">4</h4>
+        <form action="" name="question4">
+            <label for="q4o1" class="options">Double Tap</label> <!--Correct-->
+            <input type="checkbox" name="q4o1" class="options input">
+            <br>
+            <label for="q4o2" class="options">Twirl</label>
+            <input type="checkbox" name="q4o2" class="options input">
+            <br>
+            <label for="q4o3" class="options">Click</label>
+            <input type="checkbox" name="q4o3" class="options input">
+            <br>
+            <label for="q4o4" class="options">Drag</label> <!--Correct-->
+            <input type="checkbox" name="q4o4" class="options input">
+            <br>
+            <label for="q4o5" class="options">Flick</label> <!--Correct-->
+            <input type="checkbox" name="q4o5" class="options input">
+            <br>
+            <label for="q4o6" class="options">Slip</label>
+            <input type="checkbox" name="q4o6" class="options input">
+        </form>
+    </div>
+    <div class="question-box">
+        <h2 class="question">What are two ways of storing data in HTML5?</h2>
+        <h4 class="question-number">5</h4>
+        <form action="" name="question5">
+            <label for="q5o1" class="options">App Cache</label>
+            <input type="checkbox" name="q5o1" class="options input">
+            <br>
+            <label for="q5o2" class="options">sessionStorage</label> <!--Correct-->
+            <input type="checkbox" name="q5o2" class="options input">
+            <br>
+            <label for="q5o3" class="options">localStorage</label> <!--Correct-->
+            <input type="checkbox" name="q5o3" class="options input">
+            <br>
+            <label for="q5o4" class="options">offlineStorage</label>
+            <input type="checkbox" name="q5o4" class="options input">
+            <br>
+            <label for="q5o5" class="options">driveCache</label>
+            <input type="checkbox" name="q5o4" class="options input">
+        </form>
+    </div>
+    <div class="question-box">
+        <h2 class="question">How is a touch enabled application tested?</h2>
+        <h4 class="question-number">6</h4>
+        <form action="" name="question6">
+            <label for="q6o1" class="options">On an Android and Apple system</label>
+            <input type="radio" name="q6" class="options input" value="1">
+            <br>
+            <label for="q6o2" class="options">On as many touch enabled devices as possible?</label> <!--Correct-->
+            <input type="radio" name="q6" class="options input" value="2">
+            <br>
+            <label for="q6o3" class="options">In a BlackBox</label>
+            <input type="radio" name="q6" class="options input" value="3">
+            <br>
+            <label for="q6o4" class="options">On a PC with Firefox and Chrome</label>
+            <input type="radio" name="q6" class="options input" value="4">
+        </form>
+    </div>
+    <div class="question-box">
+        <h2 class="question">Which are three touch events in HTML5?</h2>
+        <h4 class="question-number">7</h4>
+        <form action="" name="question7">
+            <label for="q7o1" class="options">Touchstop</label>
+            <input type="checkbox" name="q7o1" class="options input">
+            <br>
+            <label for="q7o2" class="options">Touchstart</label><!--Correct-->
+            <input type="checkbox" name="q7o2" class="options input">
+            <br>
+            <label for="q7o3" class="options">Touchmove</label><!--Correct-->
+            <input type="checkbox" name="q7o3" class="options input">
+            <br>
+            <label for="q7o4" class="options">Touchdrag</label>
+            <input type="checkbox" name="q7o4" class="options input">
+            <br>
+            <label for="q7o5" class="options">Touchend</label><!--Correct-->
+            <input type="checkbox" name="q7o5" class="options input">
+            <br>
+            <label for="q7o6" class="options">Touchgo</label>
+            <input type="checkbox" name="q7o6" class="options input">
+        </form>
+    </div>
+    <div class="question-box">
+        <h2 class="question">Session storage does not store locally on a computer</h2>
+        <h4 class="question-number">8</h4>
+        <form action="" name="question8">
+            <label for="q8" class="options">True</label><!--Correct-->
+            <input type="radio" name="q8" class="options input" value="true">
+            <br>
+            <label for="q8" class="options">False</label>
+            <input type="radio" name="q8" class="options input" value="false">
+            <br>
+        </form>
+    </div>
+    <div class="question-box">
+        <h2 class="question">Which gesture involves lifting both fingers from the screen?</h2>
+        <h4 class="question-number">9</h4>
+        <form action="" name="question9">
+            <label for="q9" class="options">Gesturestart</label>
+            <input type="radio" name="q9" class="options input">
+            <br>
+            <label for="q9" class="options">Gesturelift</label>
+            <input type="radio" name="q9" class="options input">
+            <br>
+            <label for="q9" class="options">Gestureend</label> <!--Correct-->
+            <input type="radio" name="q9" class="options input" value="gestureend">
+            <br>
+            <label for="q9" class="options">Gesturechange</label>
+            <input type="radio" name="q9" class="options input">
+        </form>
+    </div>
+    <div class="question-box">
+        <h2 class="question">What file explains what is needed to run the program?</h2>
+        <h4 class="question-number">10</h4>
+        <form action="" name="question10">
+            <label for="q10" class="options">App File</label>
+            <input type="radio" name="q10" class="options input">
+            <br>
+            <label for="q10" class="options">App Builder</label>
+            <input type="radio" name="q10" class="options input">
+            <br>
+            <label for="q10" class="options">App Package</label> <!--Correct-->
+            <input type="radio" name="q10" class="options input" value="package">
+            <br>
+            <label for="q10" class="options">App Container</label>
+            <input type="radio" name="q10" class="options input">
+        </form>
+    </div>
+    <button id="submit" onclick="checkAnswers()">Finish</button>
+</body>
+</html>
